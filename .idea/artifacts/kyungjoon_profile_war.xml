@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kyungjoon_profile:war">
+    <output-path>E:/war/kyungjoon_profile_war</output-path>
+    <root id="archive" name="kyungjoon_profile_war.war">
+      <element id="artifact" artifact-name="kyungjoon_profile:war exploded" />
+    </root>
+  </artifact>
+</component>

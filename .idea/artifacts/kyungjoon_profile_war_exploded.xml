@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="kyungjoon_profile:war exploded">
+    <output-path>e:/war/kyungjoon_profile_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="kyungjoon_profile/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kyungjoon_profile" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
