@@ -38,7 +38,11 @@
 
         $(document).ready(function () {
 
-            $("#insta").click(function () {
+            /**
+             *
+             * 버튼 클릭 이벤트..
+             */
+            $("#insta , #learnmore2 , #learnmore1").click(function () {
                 alert("준비중이에요^^");
             });
 
@@ -133,7 +137,7 @@
                                 <strong>About</strong>
                             </h4>
                             <p>coffee, running, spinning, book, programming, movie</p>
-                            <a href="#" class="btn btn-light">Learn More</a>
+                            <a href="#" id="learnmore2" class="btn btn-light">Learn More</a>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -169,7 +173,7 @@
                                 JavaScript<br>
                                 Web Service<br>
                             </p>
-                            <a href="#" class="btn btn-light">Learn More</a>
+                            <a href="#" id="learnmore1" class="btn btn-light">Learn More</a>
                         </div>
                     </div>
                     <!--<div class="col-md-3 col-sm-6">
